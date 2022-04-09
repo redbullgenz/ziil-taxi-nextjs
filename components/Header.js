@@ -15,8 +15,8 @@ export default function Header() {
         {navLinks.map((link, index) => {
             return (
                 <ul>
-                <Link href={link.path}>
-                <a key={index} className={styles.buttonNav}>{link.name}</a>
+                <Link href={link.path} key={index}>
+                <a className={styles.buttonNav}>{link.name}</a>
                 </Link>
                 </ul>
             );

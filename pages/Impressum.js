@@ -4,7 +4,7 @@ import Header from '../components/Header'
 import styles from '../styles/header/Impressum.module.css'
 import Footer from '../components/Footer'
 
-function Impressum() {
+export default function Impressum() {
   return (
     <div className="">
       <Head>
@@ -92,5 +92,3 @@ function Impressum() {
     </div>
   )
 }
-
-export default Impressum

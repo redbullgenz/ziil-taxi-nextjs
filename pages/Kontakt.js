@@ -4,7 +4,7 @@ import Header from '../components/Header'
 import styles from '../styles/header/Kontakt.module.css'
 import Footer from '../components/Footer'
 
-function Kontakt() {
+export default function Kontakt() {
   return (
     <div>
       <Head>
@@ -61,5 +61,3 @@ function Kontakt() {
     </div>
   )
 }
-
-export default Kontakt

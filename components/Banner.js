@@ -5,8 +5,7 @@ import { iconLinks } from "../pages/data";
 
 
 
-export default function 
-() {
+export default function Banner() {
   return (
     <div className={styles.container}>
 

@@ -3,7 +3,7 @@ import styles from '../styles/header/Footer.module.css'
 import { navLinks } from "../pages/data";
 import Link from "next/link";
 
-function Footer() {
+export default function Footer() {
   return (
       <>
     <div className={styles.footer}>
@@ -50,5 +50,3 @@ function Footer() {
         </>
   )
 }
-
-export default Footer

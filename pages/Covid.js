@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 import Header from '../components/Header'
 import styles from '../styles/header/Covid.module.css'
 
-function Covid() {
+export default function Covid() {
   return (
     <div className="">
       <Head>
@@ -33,5 +33,3 @@ function Covid() {
     </div>
   )
 }
-
-export default Covid

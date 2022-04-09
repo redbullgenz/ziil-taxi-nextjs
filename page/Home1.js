@@ -5,7 +5,7 @@ import styles from '../styles/header/Home.module.css'
 import Image from "next/image";
 import Footer from '../components/Footer';
 
-function Home1() {
+export default function Home1() {
   return (
     <div>    
         <Banner/>
@@ -101,5 +101,3 @@ function Home1() {
     </div>
   )
 }
-
-export default Home1

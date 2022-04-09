@@ -4,7 +4,7 @@ import { navLinks } from "../pages/data";
 import Link from "next/link";
 
 
-function Header() {
+export default function Header() {
   return (
 <header>
     <div className={styles.header}>
@@ -37,5 +37,3 @@ function Header() {
     </header>
   )
 }
-
-export default Header

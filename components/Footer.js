@@ -18,9 +18,9 @@ export default function Footer() {
             MENU
             {navLinks.map((link, index) => {
             return (
-                <ul>
+                <ul key={index}>
                 <Link href={link.path}>
-                <a key={index} className={styles.buttonNav}>{link.name}</a>
+                <a className={styles.buttonNav}>{link.name}</a>
                 </Link>
                 </ul>
             );
